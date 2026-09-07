@@ -1,0 +1,16 @@
+{
+  "name": "hello-webapp",
+  "type": "web-application",
+  "version": "0.1.0",
+  "language": "TypeScript",
+  "buildpack": "docker",
+  "appPath": "hello-webapp",
+  "entrypoint": "deployment/web-application",
+  "exposure": "internet",
+  "dependencies": [
+    { "kind": "platform-resource", "name": "thunder-auth", "resourceType": "thunder-app" }
+  ],
+  "description": "Single-page React app that signs the user in through Thunder and displays a fixed \"Hello, World!\" greeting on one screen. It holds no other data and calls no other service.",
+  "stories": [1, 2],
+  "skillsPinned": ["wireframes", "react-webapp", "astryx-design-system", "thunder-authentication"]
+}

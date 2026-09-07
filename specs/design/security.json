@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "coldStartRole": "User",
+  "publicComponents": [],
+  "roles": [
+    {
+      "name": "User",
+      "description": "Signs in through the platform's SSO and views the hello-world page.",
+      "stories": [1, 2],
+      "grantedBy": "first sign-in",
+      "permissions": [
+        { "component": "hello-webapp", "screens": ["Greeting"] }
+      ]
+    }
+  ],
+  "testUsers": [
+    { "username": "test-user", "role": "User" }
+  ],
+  "thunder": {
+    "name": "Hello World",
+    "type": "browser",
+    "scopes": "openid profile email group ou"
+  }
+}
