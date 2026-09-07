@@ -1,0 +1,6 @@
+{
+  "targets": {
+    "hello-webapp": "http://http-p47-hello-wor-development-default-0d399e74.openchoreoapis.localhost:19080/"
+  },
+  "primary": "hello-webapp"
+}
