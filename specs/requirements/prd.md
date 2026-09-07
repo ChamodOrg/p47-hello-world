@@ -10,25 +10,25 @@ A single-page web app that, once the user signs in, displays a fixed "Hello, Wor
 
 ## Actors
 
-- **User**: A person who signs in and views the greeting page. No distinction between user types — anyone who can sign in can see the greeting.
+- **User**: Anyone who opens the app and views the greeting page. No sign-in, no distinction between user types.
 
 ## User Stories
 
-1. As a User, I want to sign in, so that I can access the app.
 2. As a User, I want to see a "Hello, World!" greeting on the page, so that I can confirm the app is working.
 
 ## Product Decisions
 
-- Users sign in via SSO through Thunder, the platform identity provider. *(org default)*
-- The greeting is static text ("Hello, World!") shown the same way to every user — no personalization, no input fields.
+- The app is public — no sign-in, no authentication of any kind.
+- The greeting is static text ("Hello, World!") shown the same way to every visitor — no personalization, no input fields.
 - The app has exactly one screen: the greeting page. There is no navigation, settings, or additional content.
 
 ## Out of Scope
 
+- Sign-in, accounts, or any authentication.
 - Personalized greetings or any user input.
 - User profiles, preferences, or per-user data of any kind.
 - Multiple pages, navigation, or additional features beyond displaying the greeting.
-- Any notifications, integrations, or external services beyond sign-in.
+- Any notifications, integrations, or external services.
 
 ## Open Questions
 

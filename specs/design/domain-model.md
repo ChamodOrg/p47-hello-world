@@ -1,14 +1,12 @@
 # Domain Model
 
-The app has a single entity: the signed-in User, identified by the platform's identity provider. There is no other persisted or modeled data.
+The app has no persisted data. The only "entity" is the static greeting text it always shows.
 
 ```mermaid
 erDiagram
-    USER {
-        string id
-        string email
-        string name
+    GREETING {
+        string message
     }
 ```
 
-**User** — the person Thunder authenticates. The app reads only the identity Thunder provides; it stores nothing of its own.
+**Greeting** — a fixed, hard-coded piece of text ("Hello, World!"). It is not stored or edited; it is the same for every visitor.

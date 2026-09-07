@@ -2,20 +2,11 @@
   "requirements": [
     {
       "id": "REQ-001",
-      "statement": "Users can sign in to access the app",
-      "stories": [1],
-      "criteria": [
-        { "id": "AC-001-a", "must": "An unauthenticated user is redirected to sign in when opening the app", "method": "e2e" },
-        { "id": "AC-001-b", "must": "A user who completes sign-in is returned to the app", "method": "e2e" }
-      ]
-    },
-    {
-      "id": "REQ-002",
-      "statement": "Signed-in users see a fixed \"Hello, World!\" greeting on the page",
+      "statement": "Visitors see a fixed \"Hello, World!\" greeting on the page without signing in",
       "stories": [2],
       "criteria": [
-        { "id": "AC-002-a", "must": "The page displays the exact text \"Hello, World!\" after sign-in", "method": "e2e" },
-        { "id": "AC-002-b", "must": "The greeting is identical for every signed-in user, with no personalization or input fields", "method": "e2e" }
+        { "id": "AC-001-a", "must": "The page displays the exact text \"Hello, World!\" without requiring sign-in", "method": "e2e" },
+        { "id": "AC-001-b", "must": "The greeting is identical for every visitor, with no personalization or input fields", "method": "e2e" }
       ]
     }
   ]
