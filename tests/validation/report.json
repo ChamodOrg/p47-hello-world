@@ -1,37 +1,13 @@
 {
   "schemaVersion": 1,
   "issue": 3,
-  "commit": "344a645d5edae3b2632a6a4912c3177f3cbf1cd6",
-  "generatedAt": "2026-09-07T11:49:21.104Z",
+  "commit": "e0a585d26461109b51f6aaca3f3f6894311fd50a",
+  "generatedAt": "2026-09-09T05:17:19.726Z",
   "playwrightVersion": "1.61.1",
   "batches": [
     {
-      "file": "2026-09-07T11-47-16-246Z.json",
-      "specs": 1
-    },
-    {
-      "file": "2026-09-07T11-47-31-547Z.json",
-      "specs": 1
-    },
-    {
-      "file": "2026-09-07T11-47-51-215Z.json",
-      "specs": 1
-    },
-    {
-      "file": "2026-09-07T11-48-08-482Z.json",
-      "specs": 1
-    },
-    {
-      "file": "2026-09-07T11-48-20-120Z.json",
+      "file": "2026-09-09T05-17-04-082Z.json",
       "specs": 2
-    },
-    {
-      "file": "2026-09-07T11-48-58-066Z.json",
-      "specs": 1
-    },
-    {
-      "file": "2026-09-07T11-49-10-857Z.json",
-      "specs": 1
     }
   ],
   "totals": {
@@ -55,9 +31,9 @@
       "healed": false,
       "healAttempts": 0,
       "flaky": false,
-      "durationMs": 2222,
+      "durationMs": 4002,
       "failure": null,
-      "batch": "2026-09-07T11-48-20-120Z.json"
+      "batch": "2026-09-09T05-17-04-082Z.json"
     },
     {
       "id": "AC-001-b",
@@ -69,9 +45,9 @@
       "healed": false,
       "healAttempts": 0,
       "flaky": false,
-      "durationMs": 3834,
+      "durationMs": 3560,
       "failure": null,
-      "batch": "2026-09-07T11-49-10-857Z.json"
+      "batch": "2026-09-09T05-17-04-082Z.json"
     }
   ],
   "warnings": [
