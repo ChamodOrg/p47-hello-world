@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "issue": 3,
-  "commit": "e0a585d26461109b51f6aaca3f3f6894311fd50a",
-  "generatedAt": "2026-09-09T05:17:19.726Z",
+  "commit": "3955461314b677777adb84b3fa24e3f248479ce6",
+  "generatedAt": "2026-09-09T17:11:43.216Z",
   "playwrightVersion": "1.61.1",
   "batches": [
     {
-      "file": "2026-09-09T05-17-04-082Z.json",
+      "file": "2026-09-09T17-11-14-015Z.json",
       "specs": 2
     }
   ],
@@ -31,9 +31,9 @@
       "healed": false,
       "healAttempts": 0,
       "flaky": false,
-      "durationMs": 4002,
+      "durationMs": 7269,
       "failure": null,
-      "batch": "2026-09-09T05-17-04-082Z.json"
+      "batch": "2026-09-09T17-11-14-015Z.json"
     },
     {
       "id": "AC-001-b",
@@ -45,9 +45,9 @@
       "healed": false,
       "healAttempts": 0,
       "flaky": false,
-      "durationMs": 3560,
+      "durationMs": 7967,
       "failure": null,
-      "batch": "2026-09-09T05-17-04-082Z.json"
+      "batch": "2026-09-09T17-11-14-015Z.json"
     }
   ],
   "warnings": [
